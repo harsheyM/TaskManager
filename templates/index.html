@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Task Manager</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Smart Task Manager</h1>
+
+    <input type="text" id="title" placeholder="Task title">
+    <input type="number" id="priority" placeholder="Priority" min="1" max="5">
+    <input type="date" id="due_date">
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="task-list"></ul>
+
+    <input type="text" id="promptInput" placeholder="Enter your task">
+    <button id="askBtn">Ask AI</button>
+    
+    <div id="ai-response"></div>
+
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

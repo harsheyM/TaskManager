@@ -1,0 +1,3 @@
+body { font-family: Georgia; padding: 20px; }
+button { margin-left: 5px; }
+.completed { text-decoration: line-through; color: gray; }
